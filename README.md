@@ -11,8 +11,7 @@ Prerequisites:
     C:\set PYTHONPATH=%PYTHONPATH%;
     C:\set PATH=python_installed_directory\Python_version\Scripts\;%PATH%
 
-    Please check this link for more detail: https://docs.python.org/3/using
-    /windows.html    
+   Please check this link for more detail: https://docs.python.org/3/using/windows.html    
     
 1. Installation and Execution
       git clone https://github.com/bttiato/marlow_navigation.git
@@ -41,7 +40,6 @@ Prerequisites:
         python test\test_product_price.py (if only python3.x running)
 
 After finishing test execution, deactivate venv by using command: deactivate
-
 
 2. Notes
     - Document of Code Design, Implementation, Test Execution, and  Test
