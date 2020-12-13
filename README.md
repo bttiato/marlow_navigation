@@ -33,20 +33,20 @@ Prerequisites:
 
       pip3 install -r requirements.txt
 
-  *To run the test:
+    To run the test:
   
-  - On Mac/Linux:
+    - On Mac/Linux:
   
         python test/test_product_price.py' (if only python3.x running)
         
         or python3 test/test_product_price.py (if python2.x and python3.x
          running)
          
-  - On Windows:
+    - On Windows:
   
         python test\test_product_price.py (if only python3.x running)
 
-After finishing test execution, deactivate venv by using command: deactivate
+    After finishing test execution, deactivate venv by using command: deactivate
 
 2. Notes
 
