@@ -3,7 +3,9 @@
 Code implementation of UI Selenium Test from Marlow Navigation
 
 Prerequisites:
+
     Chrome
+    
     Python3.x (I have Python 3.8.6 in my MacOS and Windows)
  
     If Python3.x is installed in Windows, please set enviroment variables 
