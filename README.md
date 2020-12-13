@@ -12,8 +12,7 @@ Prerequisites:
     C:\set PATH=python_installed_directory\Python_version;%PATH%
     C:\set PYTHONPATH=%PYTHONPATH%;
     C:\set PATH=python_installed_directory\Python_version\Scripts\;%PATH%
-
-   Please check this link for more detail: https://docs.python.org/3/using/windows.html    
+    Please check this link for more detail: https://docs.python.org/3/using/windows.html    
     
 1. Installation and Execution
 
