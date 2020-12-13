@@ -24,14 +24,16 @@ Prerequisites:
       or python -m venv venv (if only python3.x installed)
       
       - On MacOS/Linux
+      
             source venv/bin/activate 
                    
       - On Windows
+      
             venv\Scripts\activate 
 
        pip3 install -r requirements.txt
 
-  To run the test, use command:
+  *To run the test:
   
   - On Mac/Linux:
   
