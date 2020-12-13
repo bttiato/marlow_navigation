@@ -14,6 +14,7 @@ Prerequisites:
    Please check this link for more detail: https://docs.python.org/3/using/windows.html    
     
 1. Installation and Execution
+
       git clone https://github.com/bttiato/marlow_navigation.git
 
       cd marlow_navigation
@@ -30,21 +31,23 @@ Prerequisites:
        pip3 install -r requirements.txt
 
   To run the test, use command:
+  
   - On Mac/Linux:
+  
         python test/test_product_price.py' (if only python3.x running)
         
         or python3 test/test_product_price.py (if python2.x and python3.x
          running)
          
   - On Windows:
+  
         python test\test_product_price.py (if only python3.x running)
 
 After finishing test execution, deactivate venv by using command: deactivate
 
 2. Notes
-    - Document of Code Design, Implementation, Test Execution, and  Test
-     Result is specified in file marlow_navigation/Test_Implementation_Design
-     .docx
+
+    - Document of Code Design, Implementation, Test Execution, and  Test Result is specified in file marlow_navigation/Test_Implementation_Design.docx
 
     - To run the test with headless mode: Go to marlow_navigation/config/input.conf, edit 'headless: 1'
 
