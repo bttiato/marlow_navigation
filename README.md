@@ -31,7 +31,7 @@ Prerequisites:
       
             venv\Scripts\activate 
 
-       pip3 install -r requirements.txt
+      pip3 install -r requirements.txt
 
   *To run the test:
   
