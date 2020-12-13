@@ -1,0 +1,67 @@
+13-12-2020 18:17-40 - automation - INFO - Open URL: https://www.amazon.com/
+
+13-12-2020 18:17-42 - automation - INFO - NEW TEST CASE: product_index: 10, quantity: 10
+13-12-2020 18:17-48 - automation - INFO - Go to department Electronics
+13-12-2020 18:17-57 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:17-57 - automation - INFO - The 10th product found
+13-12-2020 18:18-03 - automation - INFO - Total product orders exceed the quanity of product in stock
+13-12-2020 18:18-03 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+
+13-12-2020 18:18-03 - automation - INFO - NEW TEST CASE: product_index: 20, quantity: 1
+13-12-2020 18:18-12 - automation - INFO - Go to department Electronics
+13-12-2020 18:18-20 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:18-20 - automation - ERROR - Total products displayed: 19 - Product requested: 20th >>> The 20th product is not existed in the list
+13-12-2020 18:18-20 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+
+13-12-2020 18:18-20 - automation - INFO - NEW TEST CASE: product_index: 2, quantity: 1
+13-12-2020 18:18-27 - automation - INFO - Go to department Electronics
+13-12-2020 18:18-37 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:18-37 - automation - INFO - The 2th product found
+13-12-2020 18:18-47 - automation - INFO - Added product to cart
+13-12-2020 18:18-50 - automation - INFO - Go to Cart & Checkout
+13-12-2020 18:18-50 - automation - INFO - Check if product 'CyberpowerPC Gamer Xtreme VR Gaming PC, Intel i5-10400F 2.9GHz, GeForce GTX 1660 Super 6GB, 8GB DDR4, 500GB NVMe SSD, WiFi Ready & Win 10 Home (GXiVR8060A10) is added to cart
+13-12-2020 18:18-50 - automation - INFO - Product CyberpowerPC Gamer Xtreme VR Gaming PC, Intel i5-10400F 2.9GHz, GeForce GTX 1660 Super 6GB, 8GB DDR4, 500GB NVMe SSD, WiFi Ready & Win 10 Home (GXiVR8060A10) is added to cart correctly
+13-12-2020 18:18-50 - automation - INFO - Test result: 
+13-12-2020 18:18-50 - automation - INFO - 	Product's price before added to cart: $791.56
+	The product's price in cart: $791.56
+13-12-2020 18:18-50 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+
+13-12-2020 18:18-50 - automation - INFO - NEW TEST CASE: product_index: 3, quantity: 8
+13-12-2020 18:18-58 - automation - INFO - Go to department Electronics
+13-12-2020 18:19-06 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:19-07 - automation - INFO - The 3th product found
+13-12-2020 18:19-11 - automation - INFO - Total product orders exceed the quanity of product in stock
+13-12-2020 18:19-11 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+
+13-12-2020 18:19-11 - automation - INFO - NEW TEST CASE: product_index: 4, quantity: 1
+13-12-2020 18:19-18 - automation - INFO - Go to department Electronics
+13-12-2020 18:19-27 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:19-27 - automation - INFO - The 4th product found
+13-12-2020 18:19-34 - automation - INFO - Added product to cart
+13-12-2020 18:19-37 - automation - INFO - Go to Cart & Checkout
+13-12-2020 18:19-37 - automation - INFO - Check if product 'Lenovo IdeaPad 3 14" Laptop, 14.0" FHD 1920 x 1080 Display, AMD Ryzen 5 3500U Processor, 8GB DDR4 RAM, 256GB SSD, AMD Radeon Vega 8 Graphics, Narrow Bezel, Windows 10, 81W0003QUS, Abyss Blue is added to cart
+13-12-2020 18:19-37 - automation - INFO - Product Lenovo IdeaPad 3 14" Laptop, 14.0" FHD 1920 x 1080 Display, AMD Ryzen 5 3500U Processor, 8GB DDR4 RAM, 256GB SSD, AMD Radeon Vega 8 Graphics, Narrow Bezel, Windows 10, 81W0003QUS, Abyss Blue is added to cart correctly
+13-12-2020 18:19-37 - automation - INFO - Test result: 
+13-12-2020 18:19-37 - automation - INFO - 	Product's price before added to cart: $421.53
+	The product's price in cart: $421.53
+13-12-2020 18:19-37 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+
+13-12-2020 18:19-37 - automation - INFO - NEW TEST CASE: product_index: 6, quantity: 2
+13-12-2020 18:19-45 - automation - INFO - Go to department Electronics
+13-12-2020 18:19-55 - automation - INFO - Go to 'Computers & Tablets successfully
+13-12-2020 18:19-55 - automation - INFO - The 6th product found
+13-12-2020 18:20-07 - automation - INFO - Added product to cart
+13-12-2020 18:20-10 - automation - INFO - Go to Cart & Checkout
+13-12-2020 18:20-10 - automation - INFO - Check if product 'iBUYPOWER Gaming PC Computer Desktop Element MR 9320 (Intel i7-10700F 2.9GHz, NVIDIA GTX 1660 Ti 6GB, 16GB DDR4 RAM, 240GB SSD, 1TB HDD, Wi-Fi ready, Windows 10 Home) is added to cart
+13-12-2020 18:20-10 - automation - INFO - Product iBUYPOWER Gaming PC Computer Desktop Element MR 9320 (Intel i7-10700F 2.9GHz, NVIDIA GTX 1660 Ti 6GB, 16GB DDR4 RAM, 240GB SSD, 1TB HDD, Wi-Fi ready, Windows 10 Home) is added to cart correctly
+13-12-2020 18:20-10 - automation - INFO - Test result: 
+13-12-2020 18:20-10 - automation - INFO - 	Product's price before added to cart: $1197.0
+	The product's price in cart: $1197.0
+13-12-2020 18:20-10 - automation - INFO - ===>>> TEST CASE FINISHED <<<===
+
+

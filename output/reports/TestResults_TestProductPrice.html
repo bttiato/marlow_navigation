@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Report</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Test Report</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-12-13 18:17:38</p>
+                <p class='attribute'><strong>Duration: </strong>148.74 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 6, Pass: 3, Fail: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.TestProductPrice</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 10; Order_Quantity: 10]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 10 and add 10 quantities to cart.
+
+</p><p style="color:maroon;">AssertionError: Total product orders exceed the quanity of product in stock</p><p style="color:maroon;">Traceback (most recent call last):
+  File "test/test_product_price.py", line 72, in test_product_price
+    self.computer_tablet.add_to_cart(int(quantity), product_detail)
+  File "/Users/admin/Desktop/Practices/marlow_navigation/lib/pages/computers_tablets.py", line 77, in add_to_cart
+    raise Exception(message)
+Exception: Total product orders exceed the quanity of product in stock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Practices/marlow_navigation/venv/lib/python3.8/site-packages/parameterized/parameterized.py", line 530, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "test/test_product_price.py", line 90, in test_product_price
+    self.fail(e)
+AssertionError: Total product orders exceed the quanity of product in stock
+</p>
+                            </td>
+                        </tr>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 20; Order_Quantity: 1]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 20 and add 1 quantities to cart.
+
+</p><p style="color:maroon;">AssertionError: Total products displayed: 19 - Product requested: 20th >>> The 20th product is not existed in the list</p><p style="color:maroon;">Traceback (most recent call last):
+  File "test/test_product_price.py", line 66, in test_product_price
+    product_link = self.computer_tablet.find_product_by_index(
+  File "/Users/admin/Desktop/Practices/marlow_navigation/lib/pages/computers_tablets.py", line 27, in find_product_by_index
+    raise Exception(msg)
+Exception: Total products displayed: 19 - Product requested: 20th >>> The 20th product is not existed in the list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Practices/marlow_navigation/venv/lib/python3.8/site-packages/parameterized/parameterized.py", line 530, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "test/test_product_price.py", line 90, in test_product_price
+    self.fail(e)
+AssertionError: Total products displayed: 19 - Product requested: 20th >>> The 20th product is not existed in the list
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 2; Order_Quantity: 1]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 2 and add 1 quantities to cart.
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='danger'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 3; Order_Quantity: 8]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-danger" style="display:block;width:40px;">Fail</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 3 and add 8 quantities to cart.
+
+</p><p style="color:maroon;">AssertionError: Total product orders exceed the quanity of product in stock</p><p style="color:maroon;">Traceback (most recent call last):
+  File "test/test_product_price.py", line 72, in test_product_price
+    self.computer_tablet.add_to_cart(int(quantity), product_detail)
+  File "/Users/admin/Desktop/Practices/marlow_navigation/lib/pages/computers_tablets.py", line 77, in add_to_cart
+    raise Exception(message)
+Exception: Total product orders exceed the quanity of product in stock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/admin/Desktop/Practices/marlow_navigation/venv/lib/python3.8/site-packages/parameterized/parameterized.py", line 530, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "test/test_product_price.py", line 90, in test_product_price
+    self.fail(e)
+AssertionError: Total product orders exceed the quanity of product in stock
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 4; Order_Quantity: 1]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 4 and add 1 quantities to cart.
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_product_price [Product_Index: 6; Order_Quantity: 2]</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test Case Description: Go to Computers & Tablets, select product at index 6 and add 2 quantities to cart.
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 3, Fail: 3 -- Duration: 148.74 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
